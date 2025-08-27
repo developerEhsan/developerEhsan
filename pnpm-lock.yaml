@@ -33,8 +33,8 @@ importers:
         specifier: ^5.13.3
         version: 5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
       astro-portabletext:
-        specifier: ^0.11.1
-        version: 0.11.1(astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
+        specifier: ^0.11.2
+        version: 0.11.2(astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
       nanostores:
         specifier: ^1.0.1
         version: 1.0.1
@@ -2026,8 +2026,12 @@ packages:
     resolution: {integrity: sha512-5wj+oUaCmHm9Ay1cytPmT1Yc0SrR1twwUIc0qNQ3MtaXaNMPw99Gjt1NcA34yfyKmEf/TAB2NiiT72jFxdddIQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
 
-  '@portabletext/types@2.0.13':
-    resolution: {integrity: sha512-5xk5MSyQU9CrDho3Rsguj38jhijhD36Mk8S6mZo3huv6PM+t4M/5kJN2KFIxgvt4ONpvOEs1pVIZAV0cL0Vi+Q==}
+  '@portabletext/toolkit@3.0.0':
+    resolution: {integrity: sha512-50otiRkac8unAAU+U9VdhpkZ4FqTG64kzz/6ckeBigKG/cGSU8YZLfmvDhdMH8tw+/uTI7d9Skwqm8RnTHZwDw==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+
+  '@portabletext/types@2.0.15':
+    resolution: {integrity: sha512-2e6i2gSQsrA/5OL5Gm4/9bxB9MNO73Fa47zj+0mT93xkoQUCGCWX5fZh1YBJ86hszaRYlqvqG08oULxvvPPp/Q==}
     engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0}
 
   '@prisma/instrumentation@5.22.0':
@@ -3071,8 +3075,8 @@ packages:
     resolution: {integrity: sha512-6t10qk83GOG8p0vKmaCr8eiilZwO171AvbROMtvvNiwrTly62t+7XkA8RdIIVbpMhCASAsxgAzdRSwh6nw/5Dg==}
     engines: {node: '>=4'}
 
-  astro-portabletext@0.11.1:
-    resolution: {integrity: sha512-z0XqyPtba+U/B7oYsuU/wCYpDVyWdEyNzXvjc8xMTTQxNr8gIEuOg9HgG4xrmpqOraHjLc27Zy9Rvap/46SX+A==}
+  astro-portabletext@0.11.2:
+    resolution: {integrity: sha512-mXT11jdA3EC5jiQYrYhppuJ+35Ne8ANL/9LtoPAwlyyCcZ4LosM5eWpfqGgwwcezJRxlwU4xltB3sNlBubE4AQ==}
     peerDependencies:
       astro: '>=4.6.0'
 
@@ -9599,19 +9603,23 @@ snapshots:
   '@portabletext/react@3.2.1(react@18.3.1)':
     dependencies:
       '@portabletext/toolkit': 2.0.17
-      '@portabletext/types': 2.0.13
+      '@portabletext/types': 2.0.15
       react: 18.3.1
 
   '@portabletext/to-html@2.0.14':
     dependencies:
       '@portabletext/toolkit': 2.0.17
-      '@portabletext/types': 2.0.13
+      '@portabletext/types': 2.0.15
 
   '@portabletext/toolkit@2.0.17':
     dependencies:
-      '@portabletext/types': 2.0.13
+      '@portabletext/types': 2.0.15
 
-  '@portabletext/types@2.0.13': {}
+  '@portabletext/toolkit@3.0.0':
+    dependencies:
+      '@portabletext/types': 2.0.15
+
+  '@portabletext/types@2.0.15': {}
 
   '@prisma/instrumentation@5.22.0':
     dependencies:
@@ -10973,10 +10981,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-portabletext@0.11.1(astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)):
+  astro-portabletext@0.11.2(astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)):
     dependencies:
-      '@portabletext/toolkit': 2.0.17
-      '@portabletext/types': 2.0.13
+      '@portabletext/toolkit': 3.0.0
+      '@portabletext/types': 2.0.15
       astro: 5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
 
   astro@5.13.3(@types/node@24.3.0)(jiti@1.21.7)(rollup@4.48.0)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0):
