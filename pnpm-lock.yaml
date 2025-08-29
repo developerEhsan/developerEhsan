@@ -52,8 +52,8 @@ importers:
         version: 5.9.2
     devDependencies:
       '@sanity/image-url':
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: ^1.2.0
+        version: 1.2.0
       '@tailwindcss/typography':
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@3.4.17)
@@ -2408,8 +2408,8 @@ packages:
     peerDependencies:
       react: ^18.3 || ^19.0.0-0
 
-  '@sanity/image-url@1.1.0':
-    resolution: {integrity: sha512-JHumVRxzzaZAJyOimntdukA9TjjzsJiaiq/uUBdTknMLCNvtM6KQ5OCp6W5fIdY78uyFxtQjz+MPXwK8WBIxWg==}
+  '@sanity/image-url@1.2.0':
+    resolution: {integrity: sha512-pYRhti+lDi22it+npWXkEGuYyzbXJLF+d0TYLiyWbKu46JHhYhTDKkp6zmGu4YKF5cXUjT6pnUjFsaf2vlB9nQ==}
     engines: {node: '>=10.0.0'}
 
   '@sanity/import@3.38.0':
@@ -9995,7 +9995,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  '@sanity/image-url@1.1.0': {}
+  '@sanity/image-url@1.2.0': {}
 
   '@sanity/import@3.38.0(@types/react@19.0.11)':
     dependencies:
@@ -14407,7 +14407,7 @@ snapshots:
       '@sanity/eventsource': 5.0.2
       '@sanity/export': 3.42.2(@types/react@19.0.11)
       '@sanity/icons': 3.7.0(react@18.3.1)
-      '@sanity/image-url': 1.1.0
+      '@sanity/image-url': 1.2.0
       '@sanity/import': 3.38.0(@types/react@19.0.11)
       '@sanity/insert-menu': 1.1.6(@emotion/is-prop-valid@1.2.2)(@sanity/types@3.79.0(@types/react@19.0.11)(debug@4.4.0))(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/logos': 2.1.13(@sanity/color@3.0.6)(react@18.3.1)

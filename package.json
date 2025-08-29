@@ -28,7 +28,7 @@
     "typescript": "^5.9.2"
   },
   "devDependencies": {
-    "@sanity/image-url": "^1.1.0",
+    "@sanity/image-url": "^1.2.0",
     "@tailwindcss/typography": "^0.5.16",
     "daisyui": "^5.0.54",
     "prettier": "^3.6.2",
