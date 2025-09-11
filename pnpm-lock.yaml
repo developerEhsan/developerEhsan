@@ -21,8 +21,8 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2(astro@5.13.7(@types/node@24.3.1)(jiti@1.21.7)(rollup@4.50.1)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.17)
       '@sanity/client':
-        specifier: ^7.11.0
-        version: 7.11.0
+        specifier: ^7.11.1
+        version: 7.11.1
       '@sentry/astro':
         specifier: ^10.11.0
         version: 10.11.0(astro@5.13.7(@types/node@24.3.1)(jiti@1.21.7)(rollup@4.50.1)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
@@ -2305,8 +2305,8 @@ packages:
     resolution: {integrity: sha512-BQRCMeDlBxwnMbFtB61HUxFf9aSb4HNVrpfrC7IFVqFf4cwcc3o5H8/nlrL9U3cDFedbe4W0AXt1mQzwbY/ljw==}
     engines: {node: '>=14.18'}
 
-  '@sanity/client@7.11.0':
-    resolution: {integrity: sha512-dZU//1Kk+0Je4TIpMtTY58ly1tNzyx1GQsbU8SD+s7FjxMM1MRCQoq7/vU8YwGNK3P0/DKHGNOmA3LsK5XJkSA==}
+  '@sanity/client@7.11.1':
+    resolution: {integrity: sha512-nvuyItcknj2qFH3FPqqZhjN94rHv7eRzuHveN2ZIhHTGhGYLp1zE7UfESMcNn+flL/Oik+Ctkp3jKB3z02NdHQ==}
     engines: {node: '>=20'}
 
   '@sanity/codegen@3.79.0':
@@ -9835,7 +9835,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/client@7.11.0':
+  '@sanity/client@7.11.1':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.6.10
@@ -10586,7 +10586,7 @@ snapshots:
 
   '@types/follow-redirects@1.14.4':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/fontkit@2.0.8':
     dependencies:
