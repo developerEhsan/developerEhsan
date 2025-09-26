@@ -19,22 +19,22 @@ importers:
         version: 3.6.0
       '@astrojs/tailwind':
         specifier: ^6.0.2
-        version: 6.0.2(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.17)
+        version: 6.0.2(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.17)
       '@sanity/client':
         specifier: ^7.11.2
         version: 7.11.2
       '@sentry/astro':
         specifier: ^10.15.0
-        version: 10.15.0(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
+        version: 10.15.0(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
       '@spotlightjs/astro':
         specifier: ^3.2.6
-        version: 3.2.6(@sentry/astro@10.15.0(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)))(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
+        version: 3.2.6(@sentry/astro@10.15.0(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)))(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
       astro:
-        specifier: ^5.13.11
-        version: 5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
+        specifier: ^5.14.0
+        version: 5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
       astro-portabletext:
         specifier: ^0.11.3
-        version: 0.11.3(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
+        version: 0.11.3(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
       nanostores:
         specifier: ^1.0.1
         version: 1.0.1
@@ -3119,8 +3119,8 @@ packages:
     peerDependencies:
       astro: '>=4.6.0'
 
-  astro@5.13.11:
-    resolution: {integrity: sha512-qKB+95GtyJSwVn5TDi31FTIcsohzA/nLhyATWn5VWqok1VLzZvm/1KHCk4tNElSrAQ5BisxUIMZWTh+B4X2JvQ==}
+  astro@5.14.0:
+    resolution: {integrity: sha512-p41jPzs9XhcVBPzp8ZwjU4SgxSyjgkzMq3NToRIn4CPbE/f9rb1cba5+N6TRk4A8yBudEU6MFzCMFWer7kjW3Q==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -7484,9 +7484,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/tailwind@6.0.2(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.17)':
+  '@astrojs/tailwind@6.0.2(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.17)':
     dependencies:
-      astro: 5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
@@ -10364,13 +10364,13 @@ snapshots:
       '@sentry-internal/browser-utils': 8.55.0
       '@sentry/core': 8.55.0
 
-  '@sentry/astro@10.15.0(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))':
+  '@sentry/astro@10.15.0(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))':
     dependencies:
       '@sentry/browser': 10.15.0
       '@sentry/core': 10.15.0
       '@sentry/node': 10.15.0
       '@sentry/vite-plugin': 4.3.0
-      astro: 5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -10617,11 +10617,11 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@spotlightjs/astro@3.2.6(@sentry/astro@10.15.0(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)))(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))':
+  '@spotlightjs/astro@3.2.6(@sentry/astro@10.15.0(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)))(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))':
     dependencies:
-      '@sentry/astro': 10.15.0(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
+      '@sentry/astro': 10.15.0(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0))
       '@spotlightjs/spotlight': 3.0.2
-      astro: 5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -11030,13 +11030,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-portabletext@0.11.3(astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)):
+  astro-portabletext@0.11.3(astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)):
     dependencies:
       '@portabletext/toolkit': 3.0.1
       '@portabletext/types': 2.0.15
-      astro: 5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0)
 
-  astro@5.13.11(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0):
+  astro@5.14.0(@types/node@24.5.2)(jiti@1.21.7)(rollup@4.52.2)(terser@5.39.0)(typescript@5.9.2)(yaml@2.8.0):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.3
