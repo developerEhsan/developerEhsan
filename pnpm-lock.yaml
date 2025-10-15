@@ -58,8 +58,8 @@ importers:
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@3.4.18(yaml@2.8.0))
       daisyui:
-        specifier: ^5.1.30
-        version: 5.1.30
+        specifier: ^5.3.1
+        version: 5.3.1
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -3568,8 +3568,8 @@ packages:
   cyclist@1.0.2:
     resolution: {integrity: sha512-0sVXIohTfLqVIW3kb/0n6IiWF3Ifj5nm2XaSrLq2DI6fKIGa2fYAZdk917rUneaeLVpYfFcyXE2ft0fe3remsA==}
 
-  daisyui@5.1.30:
-    resolution: {integrity: sha512-eMg8g8VQmQSl4AyUhXHTdQQiffXerjqL//W7ggACjzNejDXIbVSgRtJkv6JwRLXIhm7X6fcVrweEg1X1H3FhLA==}
+  daisyui@5.3.1:
+    resolution: {integrity: sha512-h2RqYCfavz3ZHoRhkn9xsDjMTSvCqAf44ve1Lh5nZvXWrnxgnzVvwGhhnM/lwvFo42aK3Rfly0wE4d5t9LKhRQ==}
 
   data-uri-to-buffer@1.2.0:
     resolution: {integrity: sha512-vKQ9DTQPN1FLYiiEEOQ6IBGFqvjCa5rSK3cWMy/Nespm5d/x3dGFT9UBZnkLxCwua/IXBi2TYnwTEpsOvhC4UQ==}
@@ -11606,7 +11606,7 @@ snapshots:
 
   cyclist@1.0.2: {}
 
-  daisyui@5.1.30: {}
+  daisyui@5.3.1: {}
 
   data-uri-to-buffer@1.2.0: {}
 
