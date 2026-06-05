@@ -46,16 +46,16 @@ console.log('🚀 Shipping with:', myApp);
 <div>
 
 <!-- GitHub Stats -->
-<img 
+<!-- <img 
   src="https://github-readme-stats.vercel.app/api?username=developerEhsan&show_icons=true&hide_border=true&theme=github_dark" 
   alt="Ehsan's GitHub Stats" width="49%" 
-/>
+/> -->
 
 <!-- Top Languages -->
-<img 
+<!-- <img 
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=developerEhsan&layout=compact&hide_border=true&theme=github_dark" 
   alt="Top Languages" width="49%" 
-/>
+/> -->
 
 </div>
 
