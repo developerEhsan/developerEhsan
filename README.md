@@ -63,11 +63,11 @@ console.log('🚀 Shipping with:', myApp);
 
 ## 📫 Let's Connect
 
-- 🌐 Website: [developerEhsan.vercel.app](https://developerEhsan.vercel.app)
+- 🌐 Website: [developerEhsan.com](https://developerEhsan.com)
 - 💼 LinkedIn: [@developerEhsan](https://www.linkedin.com/in/developer-ehsan)
 - 📝 Medium: [@developerEhsan](https://medium.com/@developerEhsan)
 - 🧑‍💻 Dev.to: [@developerEhsan](https://dev.to/developerEhsan)
-- 📧 Email: ehsanshahid787@gmail.com
+- 📧 Email: [mailto:ehsanshahid787@gmail.com](ehsanshahid787@gmail.com)
 
 ---
 
